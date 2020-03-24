@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/*buttons*/
+input[type="button"]{
+    height: 25px;
+    width: 50px;
+    margin-top: 20px;
+}
+input[value="start"]{
+    background: green;
+}input[value="reset"]{
+    background: yellow;
+}
+
+
+
+/*racetrack*/
+.raceTrack{
+/*    background: url(img/road.jpeg) center ; repeat-x repeat the img at x-axis*/
+    background: url(img/road.jpeg) center repeat-x ;
+    height: 300px;
+    position: relative;
+    border-right: 5px dashed white;
+}
+
+
+/*roadline*/
+.line{
+    height: 3px;
+    width: 100%;
+    background: yellow repeat-x;
+    position: absolute;
+    top: 150px;
+}
+
+
+/*adjusting images*/
+img{
+    height: 100px;
+    width: 100px;
+}
+.car{
+    position: absolute;
+/*    top: 200px;*/
+}
+#car1{top: 22px;}
+#car2{top: 180px;}
+
+
+/*raceinfo*/
+.raceInfoContainer{
+    margin-top: 10px;
+    background-color: chocolate;
+    text-align: center;
+    height: 100px;
+    
+}
+
+/*
+.raceinfo{
+    display: inline;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
